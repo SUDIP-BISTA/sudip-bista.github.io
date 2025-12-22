@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Easy on Ethical Hacker &amp; Cybersecurity Specialist</title>
+    <link>http://localhost:1313/tags/easy/</link>
+    <description>Recent content in Easy on Ethical Hacker &amp; Cybersecurity Specialist</description>
+    <image>
+      <title>Ethical Hacker &amp; Cybersecurity Specialist</title>
+      <url>http://localhost:1313/logo.jpeg</url>
+      <link>http://localhost:1313/logo.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Busqueda Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/busqueda/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/busqueda/</guid>
+      <description>Busqueda is an easy Linux machine involving command injection in a Python module for initial access. Privilege escalation is achieved by abusing a root-executable system checkup script with a relative path vulnerability, discovered via Gitea creds and repo analysis.</description>
+    </item>
+    <item>
+      <title>BoardLight Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/boardlight/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/boardlight/</guid>
+      <description>BoardLight is an easy Linux machine exploiting Dolibarr CVE-2023-30253 to gain www-data, then SSH access via plaintext creds. Privilege escalation is achieved through a vulnerable SUID Enlightenment binary (CVE-2022-37706) for root access.</description>
+    </item>
+    <item>
+      <title>Editorial Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/editorial/</link>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/editorial/</guid>
+      <description>Editorial is an easy Linux machine using an SSRF vulnerability to access an internal API and retrieve SSH credentials. Further Git enumeration reveals more creds, with root access gained via CVE-2022-24439 and misconfigured sudo permissions.</description>
+    </item>
+    <item>
+      <title>Mailing Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/mailing/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/mailing/</guid>
+      <description>Mailing is an easy Windows machine using path traversal to access hMailServer configs and crack the admin email password. Access to user maya is gained via CVE-2024-21413 to capture and crack NTLM, with root obtained by exploiting LibreOffice CVE-2023-2255.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hard on Ethical Hacker &amp; Cybersecurity Specialist</title>
+    <link>http://localhost:1313/tags/hard/</link>
+    <description>Recent content in Hard on Ethical Hacker &amp; Cybersecurity Specialist</description>
+    <image>
+      <title>Ethical Hacker &amp; Cybersecurity Specialist</title>
+      <url>http://localhost:1313/logo.jpeg</url>
+      <link>http://localhost:1313/logo.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freelancer Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/freelancer/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/freelancer/</guid>
+      <description>Freelancer is a hard Windows machine emphasizing real-world pentesting with IDOR, auth bypass, SQL impersonation, and RCE via SQL features. It culminates in advanced AD attacks using the Recycle Bin and Backup Operators group, plus memory forensics and AV evasion.</description>
+    </item>
+    <item>
+      <title>Intuition Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/intuition/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/intuition/</guid>
+      <description>Intuition is a hard Linux machine that starts with a CSRF attack and Python urllib CVE-2023-24329 to access server files and source code. Foothold leads to FTP access via LFI, with root gained by reversing a custom binary and exploiting Ansible CVE-2023-5115 for path traversal.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Windows on Ethical Hacker &amp; Cybersecurity Specialist</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on Ethical Hacker &amp; Cybersecurity Specialist</description>
+    <image>
+      <title>Ethical Hacker &amp; Cybersecurity Specialist</title>
+      <url>http://localhost:1313/logo.jpeg</url>
+      <link>http://localhost:1313/logo.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freelancer Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/freelancer/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/freelancer/</guid>
+      <description>Freelancer is a hard Windows machine emphasizing real-world pentesting with IDOR, auth bypass, SQL impersonation, and RCE via SQL features. It culminates in advanced AD attacks using the Recycle Bin and Backup Operators group, plus memory forensics and AV evasion.</description>
+    </item>
+    <item>
+      <title>SolarLab Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/solarlab/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/solarlab/</guid>
+      <description>SolarLab is a medium Windows machine leveraging guest SMB access to extract creds, then exploiting ReportLab CVE-2023-33733 for RCE as blake. Local Openfire is then exploited via CVE-2023-32315 for code execution, with log analysis revealing reused Administrator credentials for full access.</description>
+    </item>
+    <item>
+      <title>Mailing Writeup - HackTheBox</title>
+      <link>http://localhost:1313/writeups/hackthebox/mailing/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/hackthebox/mailing/</guid>
+      <description>Mailing is an easy Windows machine using path traversal to access hMailServer configs and crack the admin email password. Access to user maya is gained via CVE-2024-21413 to capture and crack NTLM, with root obtained by exploiting LibreOffice CVE-2023-2255.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,156 @@
+baseURL: "https://sudip-bista.github.io/"
+languageCode: "en-us"
+title: "Ethical Hacker & Cybersecurity Specialist"
+theme: ["PaperMod"]
+enableRobotsTXT: true
+
+params:
+  env: production
+  title: "SUDIP BISTA"
+  description: "Hello, welcome to my personal website!"
+  keywords: ["Blog", "Portfolio", "Writeup", "Articles"]
+  author: "Sudip Bista"
+  images: ["/logo.jpeg"]
+  DateFormat: "January 2, 2006"
+
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  ## ✅ FAVICON CONFIG (FULL & CORRECT)
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    android_chrome_192x192: "/android-chrome-192x192.png"
+    android_chrome_512x512: "/android-chrome-512x512.png"
+
+  label:
+    text: "SUDIP BISTA:~$"
+    iconHeight: 35
+
+  ## PROFILE MODE
+  profileMode:
+    enabled: true
+    title: "SUDIP BISTA"
+    subtitle: "Hacking Ethically. Hunting Bugs. Securing the Digital World."
+    imageUrl: "/logo.jpeg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "profile image"
+    buttons:
+      - name: Writeups
+        url: "/writeups/"
+      - name: About
+        url: "/about/"
+      - name: Archives
+        url: "/archives/"
+      - name: Articles
+        url: "/articles/"
+
+  ## HOME INFO MODE (disabled because profileMode is enabled)
+  homeInfoParams:
+    Title: "Hi there 👋 SUDIP BISTA Here!"
+    Content: "Building and Breaking stuffs for fun and profit"
+
+  socialIcons:
+    - name: email
+      url: "mailto:bistas933@gmail.com"
+    - name: discord
+      url: "https://discord.com/users/1141344142966927430"
+    - name: hackthebox
+      url: "https://app.hackthebox.com/profile/1415484"
+    - name: tryhackme
+      url: "https://tryhackme.com/p/KALOOBAAGH"
+    - name: ctftime
+      url: "https://ctftime.org/user/201927"
+    - name: x
+      url: "https://x.com/@KalooB52949
+"
+    - name: github
+      url: "https://github.com/KALOOBAAGH"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+    responsiveImages: false
+
+  editPost:
+    URL: "#"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
+    - identifier: writeups
+      name: Writeups
+      url: /writeups/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 25
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 35
+
+pygmentsUseClasses: true
+
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
