@@ -82,8 +82,8 @@ params:
     - name: ctftime
       url: "https://ctftime.org/user/201927"
     - name: x
-      url: "https://x.com/@KalooB52949
-"
+      url: "https://x.com/@KalooB52949"
+
     - name: github
       url: "https://github.com/SUDIP-BISTA"
 
