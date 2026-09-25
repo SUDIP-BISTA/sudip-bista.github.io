@@ -1,15 +1,30 @@
 baseURL: "https://sudip-bista.github.io/"
 languageCode: "en-us"
-title: "Ethical Hacker & Cybersecurity Specialist"
+title: "Political Scientist & AI Red Teamer"
 theme: ["PaperMod"]
 enableRobotsTXT: true
 
 params:
   env: production
-  title: "SUDIP BISTA"
-  description: "Hello, welcome to my personal website!"
-  keywords: ["Blog", "Portfolio", "Writeup", "Articles"]
-  author: "Sudip Bista"
+  title: "SUDIP KAJI BISTA"
+  description: "Political Science, Political Research, Political Strategy, AI Red Teaming and AI Security"
+  keywords:
+    - "Political Science"
+    - "Political Research"
+    - "Political Theory"
+    - "Political Strategy"
+    - "Public Policy"
+    - "Governance"
+    - "Policy Analysis"
+    - "AI Red Teaming"
+    - "AI Security"
+    - "AI Research"
+    - "AI & Governance"
+    - "Portfolio"
+    - "Articles"
+    - "Blog"
+    - "Writeups"
+  author: "SUDIP KAJI BISTA"
   images: ["/logo.jpeg"]
   DateFormat: "January 2, 2006"
 
@@ -33,7 +48,7 @@ params:
   showtoc: false
   tocopen: false
 
-  ## ✅ FAVICON CONFIG (FULL & CORRECT)
+  ## FAVICON CONFIG
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
@@ -42,34 +57,42 @@ params:
     android_chrome_192x192: "/android-chrome-192x192.png"
     android_chrome_512x512: "/android-chrome-512x512.png"
 
+  ## WEBSITE LABEL
   label:
-    text: "SUDIP BISTA:~$"
+    text: "👑 SUDIP KAJI BISTA ♟️ :~$"
     iconHeight: 35
 
   ## PROFILE MODE
   profileMode:
     enabled: true
-    title: "SUDIP BISTA"
-    subtitle: "Hacking Ethically. Hunting Bugs. Securing the Digital World."
+    title: "👑 SUDIP KAJI BISTA 👑"
+    subtitle: "🏛️ Exploring New Political Theory with AI 🤖. Questioning What We Know 🧠. 🇳🇵👑 Aspiring Political Adviser & Strategist ♟️🎯. 🔍 Exploring Politics, Power & the Future."
     imageUrl: "/logo.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: "profile image"
-    buttons:
-      - name: Writeups
-        url: "/writeups/"
-      - name: About
-        url: "/about/"
-      - name: Archives
-        url: "/archives/"
-      - name: Articles
-        url: "/articles/"
 
-  ## HOME INFO MODE (disabled because profileMode is enabled)
+    buttons:
+      - name: "Political Research"
+        url: "/political-research/"
+      - name: "Political Strategy"
+        url: "/political-strategy/"
+      - name: "Articles"
+        url: "/articles/"
+      - name: "Blog"
+        url: "/blog/"
+      - name: "About"
+        url: "/about/"
+      - name: "Ai  Research"
+        url: "/ai- research/"
+
+
+  ## HOME INFO MODE
   homeInfoParams:
     Title: "Hi there 👋 SUDIP BISTA Here!"
     Content: "Building and Breaking stuffs for fun and profit"
 
+  ## SOCIAL ICONS
   socialIcons:
     - name: email
       url: "mailto:bistas933@gmail.com"
@@ -79,14 +102,14 @@ params:
       url: "https://app.hackthebox.com/profile/1415484"
     - name: tryhackme
       url: "https://tryhackme.com/p/KALOOBAAGH"
-    - name: ctftime
-      url: "https://ctftime.org/user/201927"
     - name: x
       url: "https://x.com/@KalooB52949"
-
+    - name: linkedin
+      url: "https://www.linkedin.com/in/sudip-kaji-bista?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     - name: github
       url: "https://github.com/SUDIP-BISTA"
 
+  ## ANALYTICS
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -95,17 +118,20 @@ params:
     yandex:
       SiteVerificationTag: "XYZabc"
 
+  ## COVER
   cover:
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
     responsiveImages: false
 
+  ## EDIT POST
   editPost:
     URL: "#"
     Text: "Suggest Changes"
     appendFilePath: true
 
+  ## SEARCH
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -114,31 +140,42 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10
-    keys: ["title", "permalink", "summary", "content"]
+    keys:
+      - "title"
+      - "permalink"
+      - "summary"
+      - "content"
 
+# MENU
 menu:
   main:
     - identifier: about
       name: About
       url: /about/
       weight: 5
-    - identifier: writeups
-      name: Writeups
-      url: /writeups/
+
+    - identifier: research
+      name: Research
+      url: /research/
       weight: 10
+
     - identifier: archives
       name: Archives
       url: /archives/
       weight: 25
+
     - identifier: tags
       name: Tags
       url: /tags/
       weight: 30
+
     - identifier: search
       name: Search
       url: /search/
       weight: 35
 
+
+## CODE HIGHLIGHTING
 pygmentsUseClasses: true
 
 markup:
@@ -149,6 +186,7 @@ markup:
     lineNos: false
     style: monokai
 
+## OUTPUTS
 outputs:
   home:
     - HTML

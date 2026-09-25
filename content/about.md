@@ -7,18 +7,32 @@ hidemeta: true
 searchHidden: true
 ---
 
-## Hey, I’m SUDIP
+## Hey, I’m 👑SUDIP KAJI BISTA👑
 
-I also go by Sudip Bista. I’m into web hacking, bug bounty hunting, network pentesting, writing tools, and diving into malware development and analysis when the mood strikes.
+I also go by Sudip Kaji Bista. 😎
+
+I am a Political Science student. 🏛️ I enjoy exploring new political theories, using AI for research, and learning about the future of governance. 🤖
+
+Alongside my studies, I am also learning about AI Security, Red Teaming, Web Hacking, and Bug Bounty Hunting. 🛡️💻
+
+I like questioning old ideas, discovering new perspectives, and understanding the future of politics and technology. 👑♟️
+
+Exploring Ideas. Questioning the Known. Building a Vision for Tomorrow. 🚀
 
 ---
 
+
 ## What I Do
 
-- Web app & network penetration testing
-- Bug hunting
-- Building tools 
-- Malware dev & occasional reverse engineering (learning these in free time)
+* 🔬 Exploring New Political Theory
+* 📊 Policy Research & Analysis
+* 🏛️ Governance, Institutions & Public Administration
+* 🌐 International Relations & Geopolitics
+* 🧠 Political Strategy & Institutional Analysis
+* 🤖 AI for Political Research & Policy Innovation
+* 🛡️ AI Security & Red Teaming
+
+
 
 ---
 
@@ -28,7 +42,6 @@ I also go by Sudip Bista. I’m into web hacking, bug bounty hunting, network pe
 
 | Certification                                | Issued By           | Date          |
 |---------------------------------------------|---------------------|---------------|
-| Certified Ethical Hacker (CEH)         | The NCA GROUP    | September 11, 2024    |
 | Certified CyberSecurity Educator Proffesional ( CCEP)| The RED Team Leaders | November 25, 2025  |
 
 
@@ -44,4 +57,5 @@ Want to chat or collab?
 ---
 
 Thanks for dropping by.  
-**Stay curious, stay hacking.**
+
+**🧠🏛️ A political mind exploring new theories 🔍, challenging old assumptions ⚔️, and thinking beyond the present 🚀.**

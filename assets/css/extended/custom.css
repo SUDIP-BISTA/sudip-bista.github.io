@@ -1,0 +1,804 @@
+/* =========================================================
+   SUDIP KAJI BISTA — CUSTOM PAPER MOD CSS
+   Political Science × AI × Cyberpunk
+   ========================================================= */
+
+
+/* =========================================================
+   01. WEBSITE BACKGROUND
+   ========================================================= */
+
+body {
+    background: url("/background.jpg") center center / cover fixed no-repeat !important;
+}
+
+#content,
+.main,
+.profile {
+    background: transparent !important;
+}
+
+
+/* =========================================================
+   02. PROFILE TITLE — ANIMATED NEON GRADIENT
+   ========================================================= */
+
+.profile .profile_inner h1 {
+    background: linear-gradient(
+        90deg,
+        #ff00ff,
+        #00ffff,
+        #ffff00,
+        #ff6600
+    );
+
+    background-size: 300% auto;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    animation: gradientMove 8s linear infinite;
+
+    font-size: 38px !important;
+    font-weight: 800 !important;
+
+    text-shadow:
+        0 0 6px rgba(0, 255, 255, 0.25),
+        0 0 12px rgba(255, 0, 255, 0.18);
+}
+
+
+/* =========================================================
+   03. PROFILE TITLE — ANIMATION
+   ========================================================= */
+
+@keyframes gradientMove {
+
+    0% {
+        background-position: 0% center;
+    }
+
+    50% {
+        background-position: 100% center;
+    }
+
+    100% {
+        background-position: 0% center;
+    }
+}
+
+
+/* =========================================================
+   04. PROFILE SUBTITLE
+   ========================================================= */
+
+.profile .profile_inner > span {
+    font-size: 18px !important;
+    font-style: italic !important;
+    font-weight: 600 !important;
+
+    line-height: 1.7 !important;
+    letter-spacing: 0.3px !important;
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.95),
+        0 0 8px rgba(0, 0, 0, 0.75);
+}
+
+.profile .profile_inner .subtitle,
+.profile .profile-subtitle {
+    font-size: 19px !important;
+    font-weight: 700 !important;
+
+    line-height: 1.6 !important;
+    letter-spacing: 0.3px !important;
+}
+
+
+/* =========================================================
+   05. WEBSITE HEADER LABEL
+   ========================================================= */
+
+.logo a {
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+
+    letter-spacing: 0.5px !important;
+
+    color: #ff4d6d !important;
+
+    text-shadow:
+        0 0 5px rgba(255, 23, 68, 0.45),
+        0 0 10px rgba(0, 229, 255, 0.25);
+
+    transition:
+        color 0.3s ease,
+        text-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.logo a:hover {
+    color: #ff6685 !important;
+
+    text-shadow:
+        0 0 7px rgba(255, 23, 68, 0.65),
+        0 0 14px rgba(0, 229, 255, 0.4);
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   06. MAIN CONTENT — GLASS EFFECT
+   ========================================================= */
+
+.main {
+    position: relative;
+    z-index: 1;
+}
+
+.post-content,
+.post-single,
+.main > article {
+    background: rgba(0, 0, 0, 0.45);
+
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+    border-radius: 12px;
+
+    padding: 25px;
+}
+
+
+/* =========================================================
+   07. CONTENT HEADINGS
+   ========================================================= */
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    color: #ffffff !important;
+
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.9),
+        0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+/* =========================================================
+   08. CONTENT TEXT
+   ========================================================= */
+
+.post-content p,
+.post-content li {
+    color: #f5f5f5 !important;
+
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+
+/* =========================================================
+   09. BOLD TEXT
+   ========================================================= */
+
+.post-content strong {
+    color: #ffffff !important;
+
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+
+/* =========================================================
+   10. CONTENT LINKS
+   ========================================================= */
+
+.post-content a {
+    text-shadow:
+        0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+/* =========================================================
+   11. TABLES
+   ========================================================= */
+
+.post-content table {
+    background: rgba(0, 0, 0, 0.35);
+
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.post-content th,
+.post-content td {
+    color: #ffffff !important;
+
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+
+/* =========================================================
+   12. SOCIAL ICONS
+   ========================================================= */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 42px !important;
+    height: 42px !important;
+
+    display: inline-flex !important;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, 0.45) !important;
+
+    opacity: 1 !important;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.55);
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.social-icons a svg {
+    width: 22px !important;
+    height: 22px !important;
+
+    opacity: 1 !important;
+
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+}
+
+
+/* SOCIAL COLORS */
+
+.social-icons a[aria-label="email"] svg {
+    fill: #EA4335 !important;
+    color: #EA4335 !important;
+}
+
+.social-icons a[aria-label="facebook"] svg {
+    fill: #1877F2 !important;
+    color: #1877F2 !important;
+}
+
+.social-icons a[aria-label="linkedin"] svg {
+    fill: #0A66C2 !important;
+    color: #0A66C2 !important;
+}
+
+.social-icons a[aria-label="x"] svg {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.social-icons a[aria-label="discord"] svg {
+    fill: #5865F2 !important;
+    color: #5865F2 !important;
+}
+
+.social-icons a[aria-label="github"] svg {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.social-icons a[aria-label="hackthebox"] svg {
+    fill: #9FEF00 !important;
+    color: #9FEF00 !important;
+}
+
+.social-icons a[aria-label="tryhackme"] svg {
+    fill: #88CC14 !important;
+    color: #88CC14 !important;
+}
+
+
+/* SOCIAL HOVER */
+
+.social-icons a:hover {
+    transform: translateY(-4px) scale(1.10) !important;
+
+    background: rgba(0, 0, 0, 0.70) !important;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.6),
+        0 0 15px currentColor;
+
+    opacity: 1 !important;
+}
+
+.social-icons a:hover svg {
+    transform: scale(1.12);
+}
+
+
+/* =========================================================
+   13. PROFILE BUTTONS
+   ========================================================= */
+
+.profile .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 14px;
+
+    margin-top: 25px;
+}
+
+.profile .buttons a {
+    position: relative;
+
+    padding: 11px 20px !important;
+
+    color: #ffffff !important;
+
+    background: rgba(0, 0, 0, 0.45) !important;
+
+    border: 1px solid rgba(0, 229, 255, 0.45) !important;
+
+    border-radius: 8px !important;
+
+    font-size: 15px !important;
+    font-weight: 600 !important;
+
+    letter-spacing: 0.4px;
+
+    text-decoration: none !important;
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.35),
+        inset 0 0 10px rgba(0, 229, 255, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+.profile .buttons a::before {
+    content: "";
+
+    position: absolute;
+
+    left: 10%;
+    right: 10%;
+
+    bottom: -2px;
+
+    height: 2px;
+
+    background: linear-gradient(
+        90deg,
+        #ff1744,
+        #00e5ff,
+        #ffea00
+    );
+
+    transform: scaleX(0);
+
+    border-radius: 10px;
+
+    transition: transform 0.35s ease;
+}
+
+.profile .buttons a:hover {
+    transform: translateY(-5px);
+
+    color: #ffffff !important;
+
+    background: rgba(0, 229, 255, 0.10) !important;
+
+    border-color: #00e5ff !important;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.55),
+        0 0 15px rgba(0, 229, 255, 0.35);
+}
+
+.profile .buttons a:hover::before {
+    transform: scaleX(1);
+}
+
+.profile .buttons a:active {
+    transform: translateY(-1px) scale(0.97);
+}
+
+
+/* =========================================================
+   14. NAVIGATION
+   ========================================================= */
+
+#menu {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+}
+
+
+/* ---------------------------------------------------------
+   ALL NORMAL MENU LINKS
+   --------------------------------------------------------- */
+
+#menu a {
+    position: relative;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 8px 13px !important;
+
+    width: auto !important;
+    height: auto !important;
+
+    color: #f5f5f5 !important;
+
+    font-size: 15px !important;
+    font-weight: 600 !important;
+
+    line-height: 1.5 !important;
+
+    letter-spacing: 0.3px;
+
+    text-decoration: none !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    border-radius: 7px;
+
+    transition:
+        color 0.3s ease,
+        background 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* =========================================================
+   15. RESEARCH — FORCE VISIBLE
+   ========================================================= */
+
+#menu a[href="/research/"],
+#menu a[href*="/research/"] {
+    display: inline-flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: auto !important;
+    height: auto !important;
+
+    padding: 8px 13px !important;
+    margin: 0 !important;
+
+    color: #f5f5f5 !important;
+
+    font-size: 15px !important;
+    font-weight: 600 !important;
+
+    line-height: 1.5 !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    text-indent: 0 !important;
+    text-transform: none !important;
+
+    overflow: visible !important;
+}
+
+
+/* =========================================================
+   16. NAVIGATION GOLD UNDERLINE
+   ========================================================= */
+
+#menu a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: 2px;
+
+    width: 0;
+    height: 2px;
+
+    transform: translateX(-50%);
+
+    background: linear-gradient(
+        90deg,
+        #d4af37,
+        #fff1a8,
+        #d4af37
+    );
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 6px rgba(212, 175, 55, 0.5);
+
+    transition: width 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ffffff !important;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+#menu a:hover::after {
+    width: 65%;
+}
+
+
+/* =========================================================
+   17. ACTIVE PAGE
+   ========================================================= */
+
+#menu a.active {
+    color: #ffffff !important;
+
+    background: rgba(212, 175, 55, 0.10);
+
+    box-shadow:
+        inset 0 0 12px rgba(212, 175, 55, 0.06);
+}
+
+#menu a.active::after {
+    width: 65%;
+}
+
+
+/* =========================================================
+   18. SEARCH — ICON ONLY
+   ========================================================= */
+
+/*
+   Search text = hidden
+   Search icon = visible
+*/
+
+#menu a[href="/search/"],
+#menu a[href*="/search/"] {
+    display: inline-flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 36px !important;
+    height: 36px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    font-size: 0 !important;
+    line-height: 1 !important;
+
+    color: #ffffff !important;
+
+    background: transparent !important;
+
+    border: none !important;
+
+    border-radius: 8px !important;
+}
+
+
+/* SEARCH ICON */
+
+#menu a[href="/search/"] svg,
+#menu a[href*="/search/"] svg {
+    display: block !important;
+
+    width: 20px !important;
+    height: 20px !important;
+
+    min-width: 20px !important;
+    min-height: 20px !important;
+
+    margin: 0 !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    color: #ffffff !important;
+
+    fill: none !important;
+
+    stroke: currentColor !important;
+    stroke-width: 2 !important;
+
+    transform: none !important;
+}
+
+
+/* SEARCH HOVER */
+
+#menu a[href="/search/"]:hover,
+#menu a[href*="/search/"]:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+
+    transform: translateY(-1px);
+}
+
+#menu a[href="/search/"]:hover svg,
+#menu a[href*="/search/"]:hover svg {
+    transform: scale(1.15);
+
+    opacity: 1 !important;
+}
+
+
+/* SEARCH FOCUS */
+
+#menu a[href="/search/"]:focus svg,
+#menu a[href*="/search/"]:focus svg,
+#menu a[href="/search/"]:active svg,
+#menu a[href*="/search/"]:active svg {
+    display: block !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+
+/* =========================================================
+   19. HOME BUTTON
+   ========================================================= */
+
+#menu a[href="/"] {
+    font-weight: 700 !important;
+
+    letter-spacing: 0.4px !important;
+
+    padding: 7px 14px !important;
+
+    border-radius: 8px !important;
+}
+
+#menu a[href="/"]:hover {
+    background: rgba(255, 255, 255, 0.08);
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.18),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   20. ABOUT / POST PAGE TITLE
+   ========================================================= */
+
+body:has(.post-title) .post-title {
+    font-size: 2.2rem !important;
+
+    font-weight: 800 !important;
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 0 4px rgba(255, 255, 255, 0.25),
+        0 0 10px rgba(0, 229, 255, 0.18);
+}
+
+
+/* =========================================================
+   21. ABOUT PAGE H2
+   ========================================================= */
+
+.post-single h2 {
+    color: #ec4899 !important;
+
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   22. MOBILE RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    #menu {
+        gap: 3px;
+    }
+
+    #menu a {
+        padding: 7px 9px !important;
+
+        font-size: 14px !important;
+    }
+
+    #menu a[href="/research/"],
+    #menu a[href*="/research/"] {
+        font-size: 14px !important;
+
+        padding: 7px 9px !important;
+    }
+
+    .profile .profile_inner h1 {
+        font-size: 32px !important;
+    }
+
+    .profile .profile_inner > span {
+        font-size: 16px !important;
+    }
+
+    .post-content,
+    .post-single,
+    .main > article {
+        padding: 18px;
+    }
+
+    #menu a[href="/search/"],
+    #menu a[href*="/search/"] {
+        width: 34px !important;
+        height: 34px !important;
+
+        padding: 0 !important;
+    }
+
+    #menu a[href="/search/"] svg,
+    #menu a[href*="/search/"] svg {
+        width: 19px !important;
+        height: 19px !important;
+    }
+}
+
+
+/* =========================================================
+   23. ACCESSIBILITY — REDUCE MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .profile .profile_inner h1 {
+        animation: none !important;
+    }
+
+    .logo a,
+    .social-icons a,
+    .social-icons a svg,
+    .profile .buttons a,
+    #menu a,
+    #menu a[href*="/search/"] svg {
+        transition: none !important;
+    }
+}
